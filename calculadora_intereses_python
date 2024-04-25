@@ -1,0 +1,12 @@
+calculadora de intereses python
+
+
+#Implementa una calculadora que permita al usuario calcular el monto final de una inversión, dados el monto inicial, la tasa de interés anual y el número de años de la inversión. El programa debe utilizar la fórmula del interés compuesto.
+monto_incial = float (input("Ingrese la cantidad del monto inicial"))
+tasa_de_interes= float(input("Ingrese la tasa de inteeres"))
+años= int(input("Ingrese la cantidad de años a mantener"))
+
+tasa_interes_d= tasa_de_interes / 100
+monto_final= monto_incial*(1+tasa_interes_d)**años
+
+print("El dinero recaudado sera de: ", monto_final)
